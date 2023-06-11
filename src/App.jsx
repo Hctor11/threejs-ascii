@@ -1,10 +1,13 @@
 import './App.css'
+import ThreeScene from './Components/ThreeScence'
 
 function App() {
 
   return (
     <>
-    <h1>Test app</h1>
+      <ThreeScene>
+
+      </ThreeScene>
     </>
   )
 }
