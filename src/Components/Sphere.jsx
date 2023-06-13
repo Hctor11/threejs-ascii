@@ -1,10 +1,10 @@
 
 
-const Sphere = () => {
+const Sphere = ({ color, position }) => {
   return (
-    <mesh>
+    <mesh position={position}>
         <sphereGeometry/>
-        <meshStandardMaterial wireframe color="#fcf"/>
+        <meshStandardMaterial wireframe color={color}/>
     </mesh>
   )
 }
